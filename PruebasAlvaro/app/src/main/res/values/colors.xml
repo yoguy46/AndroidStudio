@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/colors.xml -->
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#FF000000</color>
+    <color name="white_32">#52FFFFFF</color>  <!-- ~32% -->
+    <color name="white_16">#29FFFFFF</color>  <!-- ~16% -->
+    <color name="black_12">#1F000000</color>  <!-- ~12% -->
+</resources>

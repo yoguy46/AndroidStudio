@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytContenedorSaludo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/etEjemplo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="introduce numero..."
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/etEjemplo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Introduce numero..."
+        android:inputType="number"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Suma"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="suma" />
+
+        <Button
+            android:id="@+id/Resta"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="resta" />
+
+        <Button
+            android:id="@+id/Multiplicacion"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Multipl" />
+
+        <Button
+            android:id="@+id/division"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:text="Division" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:text="resultado" />
+
+
+</LinearLayout>

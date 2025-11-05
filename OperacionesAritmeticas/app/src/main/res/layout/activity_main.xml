@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/lytContenedorSaludo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+
+    <!-- android:digits= sirve para que solo acepte los valores que le indicamos-->
+
+    <EditText
+        android:id="@+id/caja1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="introduce valor..."
+        android:inputType="number"
+       android:digits="0123456789.,-"
+        />
+      <EditText
+    android:id="@+id/caja2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="introduce valor..."
+    android:inputType="number"
+    android:digits="0123456789.,-"
+    />
+<LinearLayout
+    android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/suma"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#BDBDBD"
+        android:text="sum" />
+    <Button
+        android:id="@+id/resta"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BDBDBD"
+        android:text="res" />
+
+    <Button
+        android:id="@+id/multiplicacion"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BDBDBD"
+        android:text="mul" />
+    <Button
+        android:id="@+id/division"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5dp"
+        android:backgroundTint="#BDBDBD"
+        android:layout_weight="1"
+        android:text="div" />
+
+
+
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:layout_gravity="center"
+        android:textSize="40sp"
+        android:text="resultado" />
+
+
+
+</LinearLayout>
